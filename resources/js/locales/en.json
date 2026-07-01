@@ -1,5 +1,9 @@
 {
     "nav": {
         "dashboard": "Dashboard"
+    },
+    "dashboard": {
+        "welcome": "Welcome back!",
+        "description": "Here's an overview of your workshop."
     }
 }
