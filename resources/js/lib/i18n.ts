@@ -22,7 +22,8 @@ export const i18n = createI18n<
     false
 >({
     legacy: false,
-    locale: document.documentElement.lang || 'en',
+    locale:
+        typeof document !== 'undefined' ? document.documentElement.lang : 'en',
     fallbackLocale: 'en',
     messages,
 });
